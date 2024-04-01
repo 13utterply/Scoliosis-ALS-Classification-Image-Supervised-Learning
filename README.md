@@ -12,8 +12,9 @@ These experiments were performed on a system with an Intel Core i7-12700H 2.70 G
 ## Dataset
 The datasets were derived from 3 private sources and 2 open sources. 
 The open-source datasets provided by
-1. Fraiwan, Mohammad; Audat, Ziad; Manasreh, Tereq (2022), "A dataset of scoliosis, spondylolisthesis, and normal vertebrae X-ray images", Mendeley Data, V1, doi: 10.17632/xkt857dsxk.1
-2. Challenge dataset download at https://aasce19.github.io/
+1. Fraiwan, Mohammad; Audat, Ziad; Manasreh, Tereq (2022), "A dataset of scoliosis, spondylolisthesis, and normal vertebrae X-ray images", Mendeley Data, V1, doi: 10.17632/xkt857dsxk.1,
+   download at https://data.mendeley.com/datasets/xkt857dsxk/1 
+3. Challenge dataset download at https://aasce19.github.io/
     - Training data release: "Dataset 16: 609 spinal anterior-posterior x-ray images" download at http://spineweb.digitalimaginggroup.ca/Index.php?n=Main.Datasets
     - test data release: download at https://aasce19.github.io/
   
