@@ -57,6 +57,7 @@ import pandas as pd
 
 ## Parameter of Deep learning models
 input  image size: 299x299 mode: RGB
+
 Best fine-tuned the custom classification head, which included Global average pooling, Dense layer of 1024, 512, 256, and 128 units, respectively, serving as fully connected layers.
 PReLU was used as an activation function. L2 regulation of 0.01 was applied to the 1024, 512, 256 layers, while a dropout of 0.5 was applied to the last layer.
 The activation function for predictions used the sigmoid function with 7 outputs. The complied model used the Adam optimizer with a learning rate of 0.0001. 
