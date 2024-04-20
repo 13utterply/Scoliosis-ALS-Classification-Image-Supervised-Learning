@@ -91,6 +91,7 @@ input  image size: 299x299 mode: RGB
 Download files:
 1. For testing model.ipynb
 2. Example images folder: 299x299
+
 #Load Best models (file format ... .h5)
 3. InceptionV3 Model 
 4. Xception Model
