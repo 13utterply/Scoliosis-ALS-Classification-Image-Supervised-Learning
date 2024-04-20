@@ -20,64 +20,84 @@ The open-source datasets provided by
   
 ## Import libraries on Jupyter Notebook.
 import numpy as np
+
 import tensorflow as tf
+
 from tensorflow import keras
+
 from tensorflow.keras.models import Model, Sequential, load_model
+
 from tensorflow.keras.layers import Activation, Dense, GlobalAveragePooling2D, Flatten, BatchNormalization, Conv2D, MaxPool2D, Dropout
+
 from tensorflow.keras.regularizers import l2
+
 from tensorflow.keras.optimizers import Adam
+
 from tensorflow.keras.metrics import categorical_crossentropy
+
 from tensorflow.keras.preprocessing import image
+
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img, load_img, img_to_array
+
 from tensorflow.keras.utils import to_categorical
+
 from tensorflow.keras.applications import InceptionV3, Xception, ResNet50, ResNet101
 
 import matplotlib
+
 import matplotlib.pyplot as plt
+
 import sklearn
+
 from sklearn.metrics import confusion_matrix, roc_curve, roc_auc_score, auc, classification_report, precision_score, recall_score, f1_score
+
 import itertools
+
 import os
+
 import shutil
+
 import random
+
 import glob
+
 import warnings
+
 from datetime import datetime
+
 import cv2
+
 from PIL import Image
 
 from tensorflow.python.keras.utils.data_utils import Sequence
+
 warnings.simplefilter(action='ignore', category=FutureWarning)
+
 %matplotlib inline
+
 from tqdm import tqdm
+
 from time import sleep
+
 from tpot import TPOTClassifier
+
 from tpot import TPOTRegressor
+
 import pandas as pd
 
 ## Parameter of Deep learning models
 input  image size: 299x299 mode: RGB
 
-Best fine-tuned the custom classification head, which included Global average pooling, Dense layer of 1024, 512, 256, and 128 units, respectively, serving as fully connected layers.
-PReLU was used as an activation function. L2 regulation of 0.01 was applied to the 1024, 512, 256 layers, while a dropout of 0.5 was applied to the last layer.
-The activation function for predictions used the sigmoid function with 7 outputs. The complied model used the Adam optimizer with a learning rate of 0.0001. 
-The Model was trained with parameters of 10 epochs, a bach size of 32.
+Download files:
+1. For testing model.ipynb
+2. Example images folder
+#Load Best models (file format ... .h5)
+3. InceptionV3 Model 
+4. Xception Model
+5. ResNett50 Model
+6. ResNet101 Model
 
 
-#Load Best fine-tuned each pre-trained models (file format ... .h5)
-1. InceptionV3: 
-2. Xception: 
-3. ResNet50: 
-4. ResNet101:
-
-Example image for test models
-1. 3CH: 
-2. 3CTL: 
-3. 3CN: 
-4. 3CL: 
-5. 4C: 
-6. 4CL: 
-7. 4CTL:
 
 
 
