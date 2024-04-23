@@ -95,14 +95,19 @@ Download files:
 2. Example images folder: 299x299
 
 #Load Best models (file format ... .h5)
+Noted:  the links and passwords will be available in 30 days.
 
-3. InceptionV3 Model 
+3. InceptionV3 Model : https://terabox.com/s/1ABDDeCb_oy3V1S79aZDq8Q
+   Password:2q4p 
 
-4. Xception Model
+4. Xception Model : https://terabox.com/s/1eugRsQCBEy4KdWKF2AfkzA
+   Password:bmn3
 
-5. ResNett50 Model
+5. ResNett50 Model : https://terabox.com/s/1y-YMudxIXji8bC14Nrlylw
+   Password:iwbe
 
-6. ResNet101 Model
+6. ResNet101 Model : https://terabox.com/s/1k4VMWtLnxiHiHbtUoBgtVQ
+    Password:bkpj
 
 
 
